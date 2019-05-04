@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/prashant/Documents/OSPF/testbench_isim_beh.exe" -prj "/home/prashant/Documents/OSPF/testbench_beh.prj" "work.testbench" 

@@ -1,0 +1,1678 @@
+Number of Edges: 'start node' 'end node' 'cost'
+-- I/P for VERSION
+packet_in1 <= "00000010";
+	wait for clk_period;
+-- I/P for PACKET TYPE
+packet_in1 <= "00000010";
+	wait for clk_period;
+-- I/P for PACKET LENGTH
+packet_in1 <= "00001011";
+	wait for clk_period;
+packet_in1 <= "10001100";
+	wait for clk_period;
+-- I/P for ROUTER ID
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000001";
+	wait for clk_period;
+-- I/P for AREA ID
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for CHECKSUM
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for AU TYPE
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for AUTHENTICATION
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ZEROS1
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ZEROS2
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for OPTIONS
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ETC
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for DD SEQ NUM
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00000001";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000001";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00000010";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000010";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00000100";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000101";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00000011";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000011";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00000100";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00001010";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00000100";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000100";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00000010";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000101";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00000101";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000101";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00000110";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000110";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00000111";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000111";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00001000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00001000";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00001001";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00001001";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00001010";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00001010";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00001011";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00001011";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00001100";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00001100";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00001101";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00001101";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00001110";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00001110";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00001111";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00001111";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00010000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00010000";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00010001";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00010001";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00010010";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00010010";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00010011";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00010011";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00010100";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00010100";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00010101";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00010101";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00010110";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00010110";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00010111";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00010111";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00011000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00011000";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00011001";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00011001";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00011010";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00011010";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00011011";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00011011";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00011100";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00011100";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00011101";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00011101";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00011110";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00011110";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS IP SRC of the router_id
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00011111";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for ADV ROUTER
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "00011111";
+	wait for clk_period;
+-- I/P for LS SEQ NUM
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for LS DEST ID
+packet_in1 <= "11000000";
+	wait for clk_period;
+packet_in1 <= "10101000";
+	wait for clk_period;
+packet_in1 <= "00100000";
+	wait for clk_period;
+packet_in1 <= "00000000";
+	wait for clk_period;
+-- I/P for LS DATA
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;
+-- I/P for METRIC COST
+packet_in1 <= "00000000";
+	wait for clk_period;
+packet_in1 <= "11111111";
+	wait for clk_period;

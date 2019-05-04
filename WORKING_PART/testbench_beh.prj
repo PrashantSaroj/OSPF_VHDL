@@ -1,0 +1,8 @@
+vhdl work "main_package.vhd"
+vhdl work "sendHelloDesign.vhd"
+vhdl work "packetParser.vhd"
+vhdl work "dijkstra.vhd"
+vhdl work "DD_Parse.vhd"
+vhdl work "combine_graph.vhd"
+vhdl work "main_design.vhd"
+vhdl work "main_tb.vhd"

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/prashant/acads/DLD-LABS/OSPF/main_OSPF.xst" -ofn "/home/prashant/acads/DLD-LABS/OSPF/main_OSPF.syr" 
+xst -intstyle ise -ifn "/home/prashant/acads/DLD-LABS/OSPF/main_OSPF.xst" -ofn "/home/prashant/acads/DLD-LABS/OSPF/main_OSPF.syr" 

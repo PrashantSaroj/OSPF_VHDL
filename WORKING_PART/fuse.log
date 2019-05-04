@@ -1,0 +1,37 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/prashant/Documents/OSPF/testbench_isim_beh.exe -prj /home/prashant/Documents/OSPF/testbench_beh.prj work.testbench 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/prashant/Documents/OSPF/main_package.vhd" into library work
+Parsing VHDL file "/home/prashant/Documents/OSPF/sendHelloDesign.vhd" into library work
+Parsing VHDL file "/home/prashant/Documents/OSPF/packetParser.vhd" into library work
+Parsing VHDL file "/home/prashant/Documents/OSPF/dijkstra.vhd" into library work
+Parsing VHDL file "/home/prashant/Documents/OSPF/DD_Parse.vhd" into library work
+Parsing VHDL file "/home/prashant/Documents/OSPF/combine_graph.vhd" into library work
+Parsing VHDL file "/home/prashant/Documents/OSPF/main_design.vhd" into library work
+Parsing VHDL file "/home/prashant/Documents/OSPF/main_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 100696 KB
+Fuse CPU Usage: 1270 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package main_package
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture packetparser_arc of entity packetParser [packetparser_default]
+Compiling architecture behavioural of entity extract_info [extract_info_default]
+Compiling architecture behavioral of entity GraphCombine [graphcombine_default]
+Compiling architecture behavioral of entity design [design_default]
+Compiling architecture behavioural of entity send_hello_packet [send_hello_packet_default]
+Compiling architecture behavioural of entity main_OSPF [main_ospf_default]
+Compiling architecture behavior of entity testbench
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 19 VHDL Units
+Built simulation executable /home/prashant/Documents/OSPF/testbench_isim_beh.exe
+Fuse Memory Usage: 710444 KB
+Fuse CPU Usage: 3050 ms
+GCC CPU Usage: 18890 ms

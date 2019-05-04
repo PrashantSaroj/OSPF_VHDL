@@ -1,0 +1,105 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    23:45:04 05/02/2019 
+-- Design Name: 
+-- Module Name:    GraphCombine - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+USE WORK.my_package.all;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity GraphCombine is
+PORT(
+SIGNAL ONE : IN RAM_FOR_GRAPH;
+SIGNAL TWO : IN RAM_FOR_GRAPH;
+SIGNAL THREE : IN RAM_FOR_GRAPH;
+SIGNAL FOUR : IN RAM_FOR_GRAPH;
+SIGNAL FIVE : IN RAM_FOR_GRAPH;
+SIGNAL SIX : IN RAM_FOR_GRAPH;
+SIGNAL SEVEN : IN RAM_FOR_GRAPH;
+SIGNAL EIGHT : IN RAM_FOR_GRAPH;
+SIGNAL MAIN_GRAPH : OUT RAM_FOR_GRAPH
+);
+end GraphCombine;
+
+ architecture Behavioral of GraphCombine is
+begin
+process 
+begin
+for i in 0 to 31 loop
+for j in 0 to 31 loop
+MAIN_GRAPH(i, j) <= ONE(i, j);
+end loop;
+end loop;
+
+for i in 0 to 31 loop
+for j in 0 to 31 loop
+MAIN_GRAPH(i, j) <= TWO(i, j);
+end loop;
+end loop;
+
+for i in 0 to 31 loop
+for j in 0 to 31 loop
+MAIN_GRAPH(i, j) <= THREE(i, j);
+end loop;
+end loop;
+
+for i in 0 to 31 loop
+for j in 0 to 31 loop
+MAIN_GRAPH(i, j) <= FOUR(i, j);
+end loop;
+end loop;
+
+for i in 0 to 31 loop
+for j in 0 to 31 loop
+MAIN_GRAPH(i, j) <= FIVE(i, j);
+end loop;
+end loop;
+
+for i in 0 to 31 loop
+for j in 0 to 31 loop
+MAIN_GRAPH(i, j) <= SIX(i, j);
+end loop;
+end loop;
+
+for i in 0 to 31 loop
+for j in 0 to 31 loop
+MAIN_GRAPH(i, j) <= SEVEN(i, j);
+end loop;
+end loop;
+
+for i in 0 to 31 loop
+for j in 0 to 31 loop
+MAIN_GRAPH(i, j) <= EIGHT(i, j);
+end loop;
+end loop;
+
+WAIT;
+end process;
+end Behavioral;
+
